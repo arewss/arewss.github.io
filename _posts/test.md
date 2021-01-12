@@ -157,7 +157,7 @@ alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//
 ### 2.16.    通过error事件触发alert
 
 
-<IMG SRC="" onerro+r=”alert(String.fromCharCode(88,83,83))”></img>
+<IMG SRC=;alert(String.fromCharCode(88,83,83)) onerro+r=”alert(String.fromCharCode(88,83,83))”></img>
 
 
 ### 2.17.    对IMG标签中onerror属性进行编码
